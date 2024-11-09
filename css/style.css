@@ -11,8 +11,8 @@ body {
 
 h1, h2 {
   font-family: 'Devonshire', cursive;
-  color: black;
- }
+  color: black;  
+}
  
 #States ul li, #States{
  font-size: 24px;
@@ -69,10 +69,9 @@ h1, h2 {
         margin: auto;
         margin-top: 20px;
         padding: 10px;
-        min-width: 150px;        
+              
 }
-script { border-color: red;
-}
+
       
 html, body {
         height: 100%;
@@ -156,11 +155,12 @@ strong {
 }
 
 footer {
+  bottom: 0px;
   text-align: center;
   padding: 10px 0;
   background-color: #333;
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 footer em {
