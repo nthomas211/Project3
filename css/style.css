@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/wood.png");
+  background-image: url("..//media/wood.png");
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -63,12 +63,12 @@ h1, h2 {
   list-style-type: none;  
 }
 #map {
-        height: 55%;
-        border-radius: 15px;
-        width: 80%;
-        margin: auto;
-        margin-top: 10px;       
-        min-width: 150px;        
+   height: 55%;
+   border-radius: 15px;
+   width: 80%;
+   margin:0 auto;       
+   min-width: 150px;  
+   position: fixed;   
 }
 
       
@@ -119,11 +119,6 @@ ul li, ol li {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-
-strong {
-  color: #4a90e2;
-}
-
 
 #info {
   text-align: center;
