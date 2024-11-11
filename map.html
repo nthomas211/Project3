@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
     <script async src="js/map.js"></script>    
   </head>
    <body>
@@ -23,7 +26,21 @@
     <h1>My Favorite Spots in Oak Park</h1>
     <div id="canvas"></div>       
     <div id="map"></div> 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIWGeBWMq1N3gGBBltdTBS1D953KC2S0o&loading=async&callback=initMap" async defer></script>
-         
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIWGeBWMq1N3gGBBltdTBS1D953KC2S0o&loading=async&callback=initMap" async defer></script>    
+     <ul class="bxslider">
+        <li><img src="media/spot1.png" alt="a parking spot next to the expressway in Oak Park "></li>
+        <li><img src="media/spot2.png" alt="A long cemetary parking lot in back of the CTA Forest Park blue line"></li>
+        <li><img src="media/spot3.png" alt="A spot in River Forest at Keystone park next to a fire station"></li>
+      </ul>
+    <script>
+      $(document).ready(function(){
+        $('.bxslider').bxSlider({
+          pager: false
+        });
+      });
+    </script>
+    <footer>
+			<p>Created by <a href="index.html"><em>Nicholas Thomas</em></a></p>
+		</footer>	
   </body>  
 </html>
