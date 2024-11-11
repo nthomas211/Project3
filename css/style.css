@@ -11,7 +11,8 @@ body {
 
 h1, h2 {
   font-family: 'Devonshire', cursive;
-  color: black;  
+  color: black; 
+text-transform: uppercase;  
 }
  
 #States ul li, #States{
