@@ -63,12 +63,13 @@ h1, h2 {
   list-style-type: none;  
 }
 #map {
-   height: 55%;
+   height: 70%;
    border-radius: 15px;
    width: 80%;
    margin:0 auto;       
    min-width: 150px;  
-   position: fixed;   
+   position: fixed;  
+   box-shadow: 0 11px 15px rgba(50, 50, 110, 100.1);   
 }
 body h2 {
   text-align: center;
